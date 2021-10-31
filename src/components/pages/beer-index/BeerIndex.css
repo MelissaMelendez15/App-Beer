@@ -1,0 +1,27 @@
+.table td img {
+    height: 65px;
+    display: block;
+    margin: 0 auto;
+}
+
+.table td {
+    padding: 0px;
+    border-bottom: 1px solid rgb(250, 240, 240);
+}
+
+.textTable {
+  margin-top: 25px;
+}
+
+.table p {
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    color: #333;
+}
+
+.table .btn {
+    float: right;
+    margin: 15px 10px
+}
+

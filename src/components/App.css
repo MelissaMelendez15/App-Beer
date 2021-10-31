@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+h1, h3, h4 {
+    font-weight: 100;
+    color:#333;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333!important;
+}
+
+.bg-dark {
+    background-color: #ffd041!important;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0;
+    text-transform: capitalize;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-link a {
+    color: white;
+}
+
+a:hover{
+    color: #eee;
+}
+
+.indexPage h1 {
+   font-family: 5em;
+}
+
+.container > header {
+    margin-bottom: 40px;
+}
+
+.spinner-container {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+@media (min-width: 900px) {
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 1.8rem 3.5rem;
+    }
+    
+    #basic-navbar-nav .basic-navbar-nav .navbar-brand{
+       height: 100%;
+    }
+    
+    .navbar-brand {
+        display: inline;
+        padding: 0 3rem;
+        font-family: 'Oleo Script', cursive;
+        text-transform: lowercase;
+        font-size: 30px;
+    }
+    
+    .nav {
+        min-height: 8.3vh;
+    }
+}
+
